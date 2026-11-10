@@ -1,7 +1,7 @@
 #include <stdio.h>
-
 int main(void)
 {
+	printf("Scheduling tasks A and B...\n");
     xTaskCreate(
 		TaskA,		// task pointer/function
 		"name",		// task name
